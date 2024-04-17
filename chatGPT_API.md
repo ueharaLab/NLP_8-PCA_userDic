@@ -8,7 +8,7 @@
    4. ChatGPT APIから返却された固有表現を食感、食材別にリストにする
    5. 1～4を繰り返す
 3. openai.ChatCompletion.create(model, プロンプト文字列)がChatGPT APIにプロンプトをリクエストするpythonメソッド
-4. [chat_GPT_ner.py](./chatGPT_ner.py)を実行すると実はめちゃくちゃ遅い
+4. chat_GPT_ner.pyを実行すると実はめちゃくちゃ遅い（セキュリティの関係でデモだけ見てください）
 ```python
 
 import pandas as pd
